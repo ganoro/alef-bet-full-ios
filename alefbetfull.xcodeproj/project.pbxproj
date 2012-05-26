@@ -38,6 +38,7 @@
 		B071827F1571804D00E62CB3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B071827E1571804D00E62CB3 /* MainViewController.m */; };
 		B07182811571804D00E62CB3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07182801571804D00E62CB3 /* MainViewController.xib */; };
 		B07182851571804D00E62CB3 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = B07182841571804D00E62CB3 /* verify.sh */; };
+		B071828E157183F000E62CB3 /* www in Resources */ = {isa = PBXBuildFile; fileRef = B071828D157183F000E62CB3 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		B07182801571804D00E62CB3 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
 		B07182831571804D00E62CB3 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		B07182841571804D00E62CB3 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		B071828D157183F000E62CB3 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		B07182211571804A00E62CB3 = {
 			isa = PBXGroup;
 			children = (
+				B071828D157183F000E62CB3 /* www */,
 				B071824D1571804C00E62CB3 /* alefbetfull */,
 				B07182321571804C00E62CB3 /* Frameworks */,
 				B07182301571804C00E62CB3 /* Products */,
@@ -330,6 +333,7 @@
 				B07182781571804D00E62CB3 /* Cordova.plist in Resources */,
 				B07182811571804D00E62CB3 /* MainViewController.xib in Resources */,
 				B07182851571804D00E62CB3 /* verify.sh in Resources */,
+				B071828E157183F000E62CB3 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
